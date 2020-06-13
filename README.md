@@ -1,2 +1,2 @@
 # TechdegreeProject2
- Responsive Website
+ Responsive website
