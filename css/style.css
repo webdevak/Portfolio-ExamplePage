@@ -54,7 +54,7 @@ list-style-type: none;
 padding: 5px;
 font-size:  15px; 
 margin: 10px;
-background-color: whitesmoke;
+
 
 }
 .main-footer {
@@ -145,6 +145,9 @@ margin-left: 9px;
 .desktop {
     display: none;
 }
+.mobile {
+    background-color: whitesmoke;
+}
 
 /* ----@media Query Styles------*/
 
@@ -221,6 +224,7 @@ display: none;
 }
 .desktop {
     display: flex;
+    background-color: whitesmoke;
 }
 
 
@@ -272,6 +276,7 @@ main p {
 }
 .desktop{
     display: flex;
+    background-color: whitesmoke;
 }
 
 
