@@ -54,6 +54,7 @@ list-style-type: none;
 padding: 5px;
 font-size:  15px; 
 margin: 10px;
+background-color: whitesmoke;
 
 }
 .main-footer {
@@ -136,6 +137,14 @@ margin: 0 auto;
 .contact-footer {
 margin-top: 100px;
 }
+.desktop,
+.mobile {
+    list-style-type: none;
+}
+
+ .desktop {
+    display: none;
+ }  
 
 
 .contact-p {
@@ -219,6 +228,10 @@ align-items: center;
 main p {
     width: 90%;
 }
+.mobile {
+    display: none;
+}
+
 
 }
 
@@ -269,6 +282,10 @@ line-height: 1.4;
 main p {
     width: 82%;
 }
+.mobile{
+    display:none ;
+}
+
 
 }
 
