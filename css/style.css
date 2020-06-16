@@ -142,6 +142,9 @@ margin-top: 100px;
 width: 90%;
 margin-left: 9px;
 }
+.desktop {
+    display: none;
+}
 
 /* ----@media Query Styles------*/
 
