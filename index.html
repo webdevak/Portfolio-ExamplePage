@@ -12,26 +12,29 @@
 
     <header class="main-header">
         <h1 class="tag-name">John Doe</h1>
-        <ul class="main-nav">
+    <nav class="main-nav">
+        <ul>
         <li><a href="#">Home</a></li>
         <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Skills">Skills</a></li>
         <li><a href="#Contact">Contact</a></li>
         </ul>
+    </nav>
     </header>
 
     <div class="profile">
+        <img src="images/responsive-layout-profile.png" alt="profile image" class="profileimg-kol">
         <p class="profilebg-kol">Hi! I'm a front-end developer who loves responsive
         design and css. I recently finished learning front-end
         web developement at Treehouse and am excited to put
         all my skills to use!
         </p>
-        <img src="images/responsive-layout-profile.png" alt="profile image" class="profileimg-kol">
+       
     </div>
 
-
+    <h2 class="portfolio" id="Portfolio">Portfolio</h2>
     <main class="row">
-        <h2 class="portfolio" id="Portfolio">Portfolio</h2>
-        <div class="primary col">
+      <div class="primary col">
         <section>
         <img src="images/portfolio-1.png" alt="Marketing page">
         <h3>Marketing Page</h3>
@@ -61,7 +64,7 @@
         <section>
         <img src="images/portfolio-4.png" alt="Map of favorite spots">
         <h3>Map of Favorite Spots</h3>
-        <p>This project uses mapping apis to plot 
+        <p style="width: 90%;">This project uses mapping apis to plot 
         points for my favorite spots in the city
         for a do-it-yourself walking tour.</p>
         </section>
@@ -69,7 +72,7 @@
         <section>
         <img src="images/portfolio-5.png" alt="Photo Gallery">
         <h3>Photo Gallery</h3>
-        <p style=" margin-bottom: 7%;">This project shows pictures from a 
+        <p style="width: 90%;">This project shows pictures from a 
         recent trip to the viewer and allows 
         them to easily navigate through photos.</p>
         </section>
@@ -82,8 +85,21 @@
         button and get the result.</p>
         </section>
         </div><!--Secondary col-->
-
     </main>
+
+    <h3 id="Skills">Skills</h3>
+    <div class="skills-div">
+            <div class="skills-container">
+            <h4 class="core">Core Skills</h4>
+            <ul class="skills"> 
+                <li>Html/CSS</li>
+                <li>JavaScript</li>
+                <li>Interpersonal Skills</li>  
+                <li>Responsive design Skills</li>
+            </ul>
+        </div>
+            <img class="devskills" src="images/devskills.jpg" alt="dev skills">
+         </div>
 
     <footer class="contact-footer">
         <div id="Contact">
@@ -99,9 +115,9 @@
     <footer class="main-footer">
         <h2 class="footer-name">John Doe</h2>
         <ul class="footer-nav">
-        <li><a href="#">Home</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#Contact">Contact</a></li>
+        <li><a href="#">Back to Top</a></li>
+        <!-- <li><a href="#Portfolio">Portfolio</a></li> -->
+        <!-- <li><a href="#Contact">Contact</a></li> -->
         </ul>
     </footer>
 
