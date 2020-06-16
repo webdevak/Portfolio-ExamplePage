@@ -40,13 +40,13 @@ background-color: whitesmoke;
 }
 
 .main-footer{
-    display: flex;
-    margin-left: 3%;
-    width: 94%;
+display: flex;
+margin-left: 3%;
+width: 94%;
 }
 
 .footer-name{
-    margin-right: auto;
+margin-right: auto;
 }
 
 .footer-nav li {
@@ -70,21 +70,21 @@ width: 100%;
 }
 
 .profile{
-    border-top: white solid 5px;
-    width: 90%;
-    margin: auto;
+border-top: white solid 5px;
+width: 90%;
+margin: auto;
 }
 .profileimg-kol {
-    width: 100%;
-    }
-    .profilebg-kol {
-    padding: 10px;
-    margin: 0 auto;
-     width: 95%;
-    text-align: center;
-    font-size: 1em;
-    line-height: 1.4;
-    }
+width: 100%;
+}
+.profilebg-kol {
+padding: 10px;
+margin: 0 auto;
+width: 95%;
+text-align: center;
+font-size: 1em;
+line-height: 1.4;
+}
 
 .portfolio {
 margin-top: 70px;
@@ -94,18 +94,18 @@ margin-bottom: 35px;
 #Portfolio,
 #Skills,
 #Contact {
-    background-color: whitesmoke;
+background-color: whitesmoke;
 }
 
 .skills-div{
-    width: 90%;
-    margin: auto;
-    background-color: antiquewhite;
+width: 90%;
+margin: auto;
+background-color: antiquewhite;
 }
 #Portfolio,
 #Skills {
-    width: 90%;
-    margin-left: 5%;
+width: 90%;
+margin-left: 5%;
 }
 
 main {
@@ -123,35 +123,26 @@ margin: 0 auto;
 }
 
 #Skills {
-    font-size: 1.5em;
+font-size: 1.5em;
 }
 
 .skills {
-    list-style-type: none;
+list-style-type: none;
 }
 .core {
-    text-decoration: underline;
-    font-size: 1.4em;
+text-decoration: underline;
+font-size: 1.4em;
 }
 
 .contact-footer {
 margin-top: 100px;
 }
-.desktop,
-.mobile {
-    list-style-type: none;
-}
-
- .desktop {
-    display: none;
- }  
-
 
 .contact-p {
-    width: 90%;
-    margin-left: 9px;
-    }
-  
+width: 90%;
+margin-left: 9px;
+}
+
 /* ----@media Query Styles------*/
 
 @media (min-width: 768px) {
@@ -176,14 +167,10 @@ width: 87%;
 margin: 0 auto;
 }
 .row{
-    line-height: 1.4;
-    padding-top: 20px;
-    padding-bottom: 20px;
+padding-top: 20px;
+padding-bottom: 20px;
 }
 
-.profile {
-    margin: auto;
-}
 .profileimg-kol {
 width: 36%;
 }
@@ -197,7 +184,6 @@ width: 450px;
 }
 
 .main-header {
-flex-direction: row;
 align-items: center;
 justify-content: space-between;
 }
@@ -209,40 +195,38 @@ order: -1;
 
 .col {
 flex-wrap: wrap;
-/* flex: 1; */
+
 }
 .skills-div{
-    justify-content: space-around;
-    background-color: antiquewhite;
+justify-content: space-around;
+background-color: antiquewhite;
 }
 
 .devskills {
-    margin: 1%;
-    height: 10%;
+margin: 1%;
+height: 10%;
 }
 .contact-footer {
-flex-direction: column;
 justify-content: center;
 align-items: center;
 } 
 main p {
-    width: 90%;
+width: 90%;
 }
 .mobile {
-    display: none;
+display: none;
+}
+.desktop {
+    display: flex;
 }
 
 
 }
 
 @media (min-width: 1025px) {
-.main-header,
-.main-footer{
-width: 87%;
-}
+
 .row {
     width:97%;
-    align-items: center;
     padding: 30px 0;
 }
 .secondary-col {
@@ -264,12 +248,10 @@ justify-content: space-between;
 }
 
 ul.skills {
-    text-align: left;
-    list-style: circle;
-    margin-left: 85px;
-    }
-
-
+text-align: left;
+list-style: circle;
+margin-left: 85px;
+}
 .row {
 flex-wrap: nowrap;
 flex-direction: column;
@@ -284,6 +266,9 @@ main p {
 }
 .mobile{
     display:none ;
+}
+.desktop{
+    display: flex;
 }
 
 
