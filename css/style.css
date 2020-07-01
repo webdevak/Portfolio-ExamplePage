@@ -3,7 +3,6 @@
 box-sizing: border-box;
 }
 
-
 /* ----Base Styles------*/
 
 body {
@@ -53,7 +52,6 @@ a:active {
 color: lightcoral;
 }
 
-
 /* ----Section Styles------*/
 
 .main-header{
@@ -71,7 +69,6 @@ font-size:  1.4em;
 margin: 10px;
 background-color: whitesmoke;
 }
-
 
 .profile{
 border-top: white solid 5px;
@@ -96,6 +93,10 @@ line-height: 1.4;
 .portfolio {
 margin-top: 70px;
 margin-bottom: 35px;
+}
+
+.card {
+    padding-bottom: 10%;
 }
 
 .skills-div{
@@ -237,6 +238,8 @@ flex-direction: column;
 .card {
 width: 98%;
 margin-left: 1%;
+padding-bottom: 15%;
+
 }
 
 main img {
@@ -302,6 +305,7 @@ background-color: whitesmoke;
 
 .card {
 width: 30%;
+padding-bottom: 0;
 }
 .profile {
 justify-content: space-between;
@@ -331,6 +335,7 @@ padding: 30px 0;
 flex-direction: row;
 justify-content: space-around;
 line-height: 1.4;
+padding-bottom: 4%;
 
 }
 main p {
