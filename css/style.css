@@ -1,4 +1,4 @@
-
+/* ----Universal Style------*/
 * {
 box-sizing: border-box;
 }
@@ -29,11 +29,11 @@ width: 100%;
 
 main p {
 padding:5px;
-width: 82%;
 margin: 0 auto;
 color: slategrey;
-font-weight: 600;
+/* font-weight: 600; */
 line-height: 1.4em;
+font-size: 1.2rem;
 }
 
 /* ----Link Styles------*/
@@ -55,10 +55,8 @@ color: lightcoral;
 /* ----Section Styles------*/
 
 .main-header{
-margin-top: 0;
 padding-top: .5em;
 padding-bottom: .5em;
-width: 100%;
 }
 
 .main-nav li {
@@ -82,11 +80,9 @@ width: 100%;
 .profilebg-kol {
 padding: 10px;
 margin: 0 auto;
-width: 95%;
-text-align: center;
 font-size: 1.4em;
 color: slategrey;
-font-weight: 700;
+/* font-weight: 700; */
 line-height: 1.4;
 }
 
@@ -104,6 +100,7 @@ width: 90%;
 margin: auto;
 background-color: antiquewhite;
 padding-bottom: 25px;
+font-size: 1.2rem;
 }
 
 .devskills {
@@ -112,7 +109,7 @@ width: 75%;
 
 .skills {
 list-style-type: none;
-font-weight: 600;
+/* font-weight: 600; */
 line-height: 1.4em;
 }
 .core {
@@ -226,7 +223,6 @@ header a {
 padding: 0;
 }
 .row{
-flex-wrap: nowrap;
 padding-top: 20px;
 padding-bottom: 20px;
 }
@@ -239,11 +235,6 @@ flex-direction: column;
 width: 98%;
 margin-left: 1%;
 padding-bottom: 15%;
-
-}
-
-main img {
-width: 100%;
 }
 
 .profileimg-kol {
@@ -252,7 +243,6 @@ width: 70%;
 .profilebg-kol{
 text-align: left;
 line-height: 1.5;
-font-weight: 600;
 font-size: 1.2em;
 }
 
@@ -273,18 +263,18 @@ padding: 0;
 
 .skills-div{
 justify-content: space-around;
-background-color: antiquewhite;
+/* text-align: left; */
 }
 
 .devskills {
-margin: 1%;
+margin-top: 4%;
+margin-right: 4%;
 height: 10%;
 width: 300px;
 }
 
 .contact-footer {
 justify-content: center;
-align-items: center;
 } 
 
 .contact-footer p {
@@ -308,8 +298,8 @@ width: 30%;
 padding-bottom: 0;
 }
 .profile {
+    /* align-items: center; */
 justify-content: space-between;
-margin: auto;
 }
 .profileimg-kol {
 max-width: 50%;
@@ -317,8 +307,6 @@ max-width: 50%;
 .profilebg-kol{
 width: 47%;
 margin: 0;
-font-weight: 700;
-line-height: 1.5;
 font-size: 1.5em;
 }
 .main-header { 
@@ -336,10 +324,9 @@ flex-direction: row;
 justify-content: space-around;
 line-height: 1.4;
 padding-bottom: 4%;
-
 }
 main p {
-width: 82%;
+    width: 82%;
 }
 
 ul.skills {
@@ -347,14 +334,5 @@ text-align: left;
 list-style: circle;
 margin-left: 85px;
 }
-
-.mobile{
-display:none ;
-}
-.desktop{
-display: flex;
-background-color: whitesmoke;
-}
-
 
 }
