@@ -125,10 +125,11 @@ margin-top: 100px;
 font-weight: 600;
 margin-left: 9px;
 }
-.contact-footer p{
-font-weight:  600;
-line-height: 1.4em;
 
+.contact-footer p{
+    font-size: 1.3em;
+    font-weight: 500;
+    line-height: 1.4em;
 }
 
 .main-footer{
@@ -279,6 +280,7 @@ justify-content: center;
 
 .contact-footer p {
 width: 450px;
+font-size: 1.4em;
 }
 
 .mobile {
@@ -334,5 +336,6 @@ text-align: left;
 list-style: circle;
 margin-left: 85px;
 }
+
 
 }
